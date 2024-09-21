@@ -1,0 +1,7 @@
+nginx_alpine=nginx:alpine
+base_image=base
+modified_image=modified
+volume_image=volume
+base_dockerfile=Dockerfile.base
+modified_dockerfile=Dockerfile.modified
+volume_dockerfile=Dockerfile.volume
