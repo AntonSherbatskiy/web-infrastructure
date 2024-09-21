@@ -1,4 +1,4 @@
-source ./variables.sh
+source ./shared.sh
 
 clear
 

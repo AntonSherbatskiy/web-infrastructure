@@ -1,4 +1,4 @@
-source ./variables.sh
+source ./shared.sh
 
 rm $base_dockerfile $modified_dockerfile $volume_dockerfile
 docker rm -f $(docker ps -a -q --filter ancestor="${base_image}")
